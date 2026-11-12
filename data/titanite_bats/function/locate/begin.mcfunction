@@ -1,4 +1,4 @@
-tellraw @s {text:"A dying bat drags you toward an End City...",color:"dark_purple"}
+tellraw @s {text:"END CITY!!!!!!",color:"dark_purple"}
 
 scoreboard players set #tries tb.var 0
 scoreboard players set #two tb.var 2

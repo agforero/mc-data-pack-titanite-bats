@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "killed_bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:bat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "titanite_bats:on_player_kill"
+  }
+}

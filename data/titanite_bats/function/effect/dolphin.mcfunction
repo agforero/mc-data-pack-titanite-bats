@@ -1,3 +1,3 @@
 summon minecraft:dolphin ~ ~1 ~
 
-execute as @a[tag=tb.target,limit=1] run tellraw @s {text:"A dolphin appears where the bat fell.",color:"aqua"}
+execute as @a[tag=tb.target,limit=1] run tellraw @s {text:"DOLPHIN!!!!!!",color:"aqua"}
