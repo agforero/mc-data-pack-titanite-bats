@@ -1,7 +1,7 @@
 scoreboard players add #tries tb.var 1
 execute if score #tries tb.var matches 64.. run return run function titanite_bats:locate/arrive
 
-execute store success score #ok tb.var store result score #dist tb.var run locate structure minecraft:end_city
+execute store success score #ok tb.var store result score #dist tb.var run locate structure minecraft:ancient_city
 execute if score #ok tb.var matches 0 run return run function titanite_bats:locate/fail
 execute if score #dist tb.var matches ..4 run return run function titanite_bats:locate/arrive
 
