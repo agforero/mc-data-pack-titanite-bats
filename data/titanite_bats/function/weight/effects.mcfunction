@@ -3,7 +3,7 @@ data modify storage titanite_bats:weights effects set value []
 data modify storage titanite_bats:weights effects append value {weight:10,function:"titanite_bats:effect/two_bats"}
 data modify storage titanite_bats:weights effects append value {weight:30,function:"titanite_bats:effect/diamonds"}
 data modify storage titanite_bats:weights effects append value {weight:4,function:"titanite_bats:effect/deep_dark"}
-data modify storage titanite_bats:weights effects append value {weight:2,function:"titanite_bats:effect/warden"}
+# data modify storage titanite_bats:weights effects append value {weight:2,function:"titanite_bats:effect/warden"}
 data modify storage titanite_bats:weights effects append value {weight:12,function:"titanite_bats:effect/nausea"}
 data modify storage titanite_bats:weights effects append value {weight:10,function:"titanite_bats:effect/potatoes"}
 data modify storage titanite_bats:weights effects append value {weight:1,function:"titanite_bats:effect/ten_bats"}
